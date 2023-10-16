@@ -43,3 +43,16 @@ p {
     font-size: 20px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 250px;
+        margin-top: 40px;
+    }
+    input[type="number"] {
+        width: 80%;
+    }
+    button {
+        width: 170px;
+    }
+}
